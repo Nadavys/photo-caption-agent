@@ -1,0 +1,1 @@
+DEFAULT_MODEL = "gemma3:27b"

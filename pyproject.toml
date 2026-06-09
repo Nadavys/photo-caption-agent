@@ -1,0 +1,30 @@
+[project]
+name = "photo-caption-agent"
+version = "0.1.0"
+description = "Multi-stage agentic AI pipeline for generating captions from photos"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "ollama>=0.6.2",
+    "python-dotenv>=1.2.2",
+    "textual>=0.80.0",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s %(levelname)s %(message)s"
+log_cli_date_format = "%H:%M:%S"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
