@@ -1,8 +1,8 @@
 # PhotoCaptionAgent
 
-A multi-stage agentic AI pipeline that turns your photos into emotionally charged dialogue captions — using a vision model to see the scene, an LLM to generate story context, and a refinement loop to dial in exactly the tone you want.
+A multi-stage agentic AI pipeline that turns your photos into captions — using a vision model to see the scene, an LLM to generate story context, and a refinement loop to dial in exactly the tone you want.
 
-Drop in a photo. The vision model describes what it sees. A story-direction agent generates 10 narrative framings. A dialogue agent voices the person in the shot across four emotional registers. A refinement agent iterates on your pick until it's perfect. All local, all Ollama, no cloud APIs required.
+Drop in a photo. The vision model describes what it sees. A story-direction agent generates 10 narrative framings. A refinement agent iterates on your pick until it's perfect.  All Ollama,  cloud APIs optional.
 
 Great for tagging photos with something better than "nice pic" — or just making your friends question your emotional depth.
 
